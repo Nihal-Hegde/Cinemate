@@ -3,7 +3,7 @@ import Logo from "../assets/logo.png"
 import { useEffect, useState } from "react"
 
 export const Header = () => {
-
+   //eslint-disable-next-line
   const[hidden,setHidden] = useState(true);
   const[darkMode,setDarkMode] = useState(JSON.parse(localStorage.getItem("darkMode")) || false);
 
